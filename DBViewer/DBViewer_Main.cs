@@ -91,6 +91,7 @@ namespace DBViewer
         {
             if (TableSelection_ComboBox.SelectedIndex > 0)
             {
+                QueryResult_DGV.DataSource = null;
                 string selection = TableSelection_ComboBox.Text;
                 QueryResult_DGV.DataSource = database.GetTable(selection);
                 TableInfo_Label.Text = $"Viewing {TableSelection_ComboBox.Text} table ({database.GetTableCount(selection)} records)";

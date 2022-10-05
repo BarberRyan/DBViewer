@@ -39,15 +39,10 @@
             this.QueryResult_DGV = new System.Windows.Forms.DataGridView();
             this.TableSelection_ComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.QueryResult_DGV)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -152,49 +147,11 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Select Table:";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Location = new System.Drawing.Point(223, 15);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(353, 48);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Refine Search";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(60, 19);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 10;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 13);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "WHERE";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(188, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 20);
-            this.textBox1.TabIndex = 12;
-            // 
             // DBViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 440);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TableSelection_ComboBox);
             this.Controls.Add(this.groupBox4);
@@ -209,8 +166,6 @@
             this.statusStrip1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.QueryResult_DGV)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,10 +184,6 @@
         private System.Windows.Forms.ComboBox TableSelection_ComboBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripStatusLabel TableInfo_Label;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
